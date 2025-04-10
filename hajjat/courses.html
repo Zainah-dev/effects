@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreakThrough Tech Academy - Courses</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/OIP (1).jpg" alt="BreakThrough Tech Academy">
+                <h1>BreakThrough Tech Academy</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="courses-hero">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <p>Browse our industry-leading programs designed to launch your tech career</p>
+        </div>
+    </section>
+
+    <section class="course-search">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="course-search" placeholder="Search courses...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="all-courses">
+        <div class="container">
+            <div class="course-list">
+                <div class="course-item" data-category="development">
+                    <img src="images/webstack.jpg" alt="Full Stack Development">
+                    <div class="course-info">
+                        <h3>Full Stack Development</h3>
+                        <p>Master both front-end and back-end technologies including HTML, CSS, JavaScript, Node.js, React, and databases to build complete web applications.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 16 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Beginner to Advanced</span>
+                        </div>
+                        <button class="btn enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="course-item" data-category="data">
+                    <img src="images/datascie.jpg" alt="Data Science">
+                    <div class="course-info">
+                        <h3>Data Science</h3>
+                        <p>Learn Python, Pandas, NumPy, Matplotlib, and machine learning algorithms to analyze data and extract valuable insights for business decisions.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 14 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate Level</span>
+                        </div>
+                        <button class="btn enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="course-item" data-category="design">
+                    <img src="images/uxui design.jpg" alt="UX/UI Design">
+                    <div class="course-info">
+                        <h3>UX/UI Design</h3>
+                        <p>Master user experience principles, wireframing, prototyping, and design tools like Figma and Adobe XD to create intuitive digital products.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 12 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Beginner Level</span>
+                        </div>
+                        <button class="btn enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="course-item" data-category="development">
+                    <img src="images/frontend.jpg" alt="Frontend Development">
+                    <div class="course-info">
+                        <h3>Frontend Development</h3>
+                        <p>Learn HTML, CSS, JavaScript, and modern frameworks like React to build responsive, interactive websites and web applications.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 10 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Beginner Level</span>
+                        </div>
+                        <button class="btn enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="course-item" data-category="data">
+                    <img src="images/data analysis.jpg" alt="Data Analytics">
+                    <div class="course-info">
+                        <h3>Data Analytics</h3>
+                        <p>Learn SQL, Excel, Tableau, and basic Python to analyze data sets, create visualizations, and communicate data-driven insights.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 8 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Beginner Level</span>
+                        </div>
+                        <button class="btn enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="course-item" data-category="development">
+                    <img src="images/mobile app.jpg" alt="Mobile App Development">
+                    <div class="course-info">
+                        <h3>Mobile App Development</h3>
+                        <p>Build cross-platform mobile applications using React Native, including state management, APIs, and deployment to app stores.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 12 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate Level</span>
+                        </div>
+                        <button class="btn enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Start Your Tech Journey?</h2>
+            <p>Our admissions team is ready to help you choose the right program for your goals.</p>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BreakThrough Tech Academy</h3>
+                    <p>Empowering the next generation of tech professionals through accessible, high-quality education.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@breakthroughtech.academy</p>
+                    <p><i class="fas fa-phone"></i> 0740029454</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BreakThrough Tech Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="enrollment-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Enroll in <span id="course-title"></span></h2>
+            <form id="enrollment-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="experience">Tech Experience Level</label>
+                    <select id="experience" required>
+                        <option value="">Select your level</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Submit Enrollment</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/courses.js"></script>
+</body>
+</html>
